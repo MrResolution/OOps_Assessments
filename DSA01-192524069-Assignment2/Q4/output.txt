@@ -1,0 +1,38 @@
+Statement after 10 transactions:
+========================================
+           ATM MINI-STATEMENT           
+Account Number: 90124589
+Current Balance: Rs 6090.00
+Last 10 Transactions:
+----------------------------------------
+01. CREDIT : +Rs 1000.00
+02. DEBIT  : -Rs 500.00
+03. CREDIT : +Rs 200.00
+04. DEBIT  : -Rs 150.00
+05. CREDIT : +Rs 300.00
+06. CREDIT : +Rs 400.00
+07. DEBIT  : -Rs 250.00
+08. CREDIT : +Rs 120.00
+09. DEBIT  : -Rs 80.00
+10. CREDIT : +Rs 50.00
+========================================
+
+Executing 11th and 12th transactions (discarding oldest):
+========================================
+           ATM MINI-STATEMENT           
+Account Number: 90124589
+Current Balance: Rs 6970.00
+Last 10 Transactions:
+----------------------------------------
+01. CREDIT : +Rs 200.00
+02. DEBIT  : -Rs 150.00
+03. CREDIT : +Rs 300.00
+04. CREDIT : +Rs 400.00
+05. DEBIT  : -Rs 250.00
+06. CREDIT : +Rs 120.00
+07. DEBIT  : -Rs 80.00
+08. CREDIT : +Rs 50.00
+09. CREDIT : +Rs 990.00
+10. DEBIT  : -Rs 110.00
+========================================
+
