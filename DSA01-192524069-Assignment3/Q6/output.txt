@@ -1,0 +1,5 @@
+Concatenated Message: Your OTP is 482910. Do not share with anyone.
+Message Length: 45 chars
+Equality Check (duplicate == fullMsg): true
+Inequality Check (msg1 != msg2): true
+Self-assignment handled safely: Your OTP is 482910. Do not share with anyone.
