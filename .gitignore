@@ -17,3 +17,4 @@ dangling_demo
 bench_*
 explicit_demo
 reorder_warning
+shallow_copy_crash
