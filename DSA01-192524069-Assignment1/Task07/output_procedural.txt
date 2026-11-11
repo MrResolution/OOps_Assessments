@@ -1,0 +1,5 @@
+Procedural Metro System:
+Initial Balance: Rs 100
+Trip 1 Allowed. Balance: Rs 64
+Trip 2 Denied. Insufficient Balance. Current: Rs 64
+Vulnerability Demonstration: Unprotected balance modified directly to Rs -15
