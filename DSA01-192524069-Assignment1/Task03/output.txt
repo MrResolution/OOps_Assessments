@@ -1,0 +1,19 @@
+Data Type Sizes and Ranges:
+sizeof(bool):        1 byte
+sizeof(char):        1 byte
+sizeof(int):         4 bytes [Min: -2147483648, Max: 2147483647]
+sizeof(unsigned int):4 bytes [Max: 4294967295]
+sizeof(long long):   8 bytes [Min: -9223372036854775808, Max: 9223372036854775807]
+sizeof(float):       4 bytes
+sizeof(double):      8 bytes
+
+Daily Network Revenue Analysis (3,000,000 journeys):
+Total Revenue in Paise:  7500000000 paise
+Total Revenue in Rupees: Rs 75000000
+INT_MAX:                 2147483647
+Int Overflow in Paise?   YES (Overflows standard 32-bit int)
+
+Precision Drift Demonstration (1,000,000 additions of Rs 10.30):
+Double Sum:           10300000.0000311807 rupees
+Exact Integer Paise:  10300000.0000000000 rupees (1030000000 paise)
+Absolute Discrepancy: 0.0000311807 rupees
