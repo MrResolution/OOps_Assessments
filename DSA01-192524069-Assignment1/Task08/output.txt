@@ -1,0 +1,16 @@
+========================================
+      NAMMA METRO GATE CONTROLLER       
+========================================
+Enter Destination Zone (1=Inner, 2=Middle, 3=Outer): Error: Invalid input. Numerical entry required.
+Enter Destination Zone (1=Inner, 2=Middle, 3=Outer): Error: Value must be between 1 and 3.
+Enter Destination Zone (1=Inner, 2=Middle, 3=Outer): Enter Journey Hour (0 to 23): Error: Value must be between 0 and 23.
+Enter Journey Hour (0 to 23): Error: Value must be between 0 and 23.
+Enter Journey Hour (0 to 23): 
+----------------------------------------
+             JOURNEY TICKET             
+----------------------------------------
+Zone Category:      Outer
+Departure Time:     18:00
+Surcharge Rate:     20% (Peak Surcharge)
+Calculated Fare:    Rs 36.00
+----------------------------------------
