@@ -1,0 +1,8 @@
+Hour 7 -> Expression: Off-Peak | Lookup: Off-Peak
+Hour 8 -> Expression: Peak | Lookup: Peak
+Hour 9 -> Expression: Peak | Lookup: Peak
+Hour 10 -> Expression: Off-Peak | Lookup: Off-Peak
+Hour 16 -> Expression: Off-Peak | Lookup: Off-Peak
+Hour 17 -> Expression: Peak | Lookup: Peak
+Hour 19 -> Expression: Peak | Lookup: Peak
+Hour 20 -> Expression: Off-Peak | Lookup: Off-Peak
