@@ -1,0 +1,17 @@
+Test Case                     Exp Fare       Act Fare       Exp Allowed    Act Allowed    Result    
+----------------------------------------------------------------------------------------------------
+Zone 1 Off-Peak               1000           1000           true           true           PASS      
+Zone 2 Off-Peak               2000           2000           true           true           PASS      
+Zone 3 Off-Peak               3000           3000           true           true           PASS      
+Zone 1 Peak                   1200           1200           true           true           PASS      
+Zone 2 Peak                   2400           2400           true           true           PASS      
+Zone 3 Peak                   3600           3600           true           true           PASS      
+Boundary 8:00 AM (Peak)       1200           1200           true           true           PASS      
+Boundary 10:00 AM (Off-Peak)  1000           1000           true           true           PASS      
+Boundary 17:00 (Peak)         1200           1200           true           true           PASS      
+Boundary 20:00 (Off-Peak)     1000           1000           true           true           PASS      
+Exact Rs 50 Remaining         1000           1000           true           true           PASS      
+Low Balance (1 Paisa Short)   1000           1000           false          false          PASS      
+Invalid Zone Check            -1             -1             false          false          PASS      
+----------------------------------------------------------------------------------------------------
+Summary: 13 / 13 Tests Passed.
