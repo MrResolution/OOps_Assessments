@@ -1,0 +1,10 @@
+ambiguous_demo.cpp: In function ‘int main()’:
+ambiguous_demo.cpp:16:11: error: call of overloaded ‘charge(double)’ is ambiguous
+   16 |     charge(5.0);
+      |     ~~~~~~^~~~~
+ambiguous_demo.cpp:3:6: note: candidate: ‘void charge(double)’
+    3 | void charge(double weight) {
+      |      ^~~~~~
+ambiguous_demo.cpp:11:6: note: candidate: ‘void charge(double, bool, bool)’
+   11 | void charge(double weight, bool express = false, bool insured = false) {
+      |      ^~~~~~

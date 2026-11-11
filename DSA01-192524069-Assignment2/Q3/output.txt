@@ -1,0 +1,8 @@
+Testing Unambiguous Function Overload Resolution:
+
+[Overload 1: int weightGrams (2g)] -> Charge: Rs 0
+[Overload 2: double weightKg (2kg)] -> Charge: Rs 10
+[Overload 2: double weightKg (3.5kg)] -> Charge: Rs 17
+[Overload 2: double weightKg (3.5kg)] -> Charge: Rs 32
+[Overload 2: double weightKg (3.5kg)] -> Charge: Rs 57
+[Overload 3: Parcel struct] -> [Overload 2: double weightKg (4.2kg)] -> Charge: Rs 46
