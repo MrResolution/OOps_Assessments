@@ -1,0 +1,5 @@
+Metro Smart-Card Gate System (Production Design)
+Card ID: 882031
+Current Balance: Rs 100.00
+Trip Fare: Rs 36.00
+Transaction Approved. New Balance: Rs 64.00
