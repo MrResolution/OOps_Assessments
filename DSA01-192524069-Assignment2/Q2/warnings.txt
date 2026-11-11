@@ -1,0 +1,7 @@
+dangling_demo.cpp: In function ‘int& getLocalReference()’:
+dangling_demo.cpp:5:12: warning: reference to local variable ‘localMark’ returned [-Wreturn-local-addr]
+    5 |     return localMark;
+      |            ^~~~~~~~~
+dangling_demo.cpp:4:9: note: declared here
+    4 |     int localMark = 95;
+      |         ^~~~~~~~~

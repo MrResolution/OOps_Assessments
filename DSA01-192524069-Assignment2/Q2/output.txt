@@ -1,0 +1,4 @@
+Original marks: 78 85 92 88 79 
+After +2 moderation via return by reference: 78 85 94 88 79 
+Before vector growth: scores[0] = 50
+Safeguarded vector capacity access verified.
