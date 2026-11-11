@@ -1,0 +1,14 @@
+=== Scope 1: Stack Allocation ===
+[Constructor] Allocated 2D Seat Map: 3 x 5
+Auditorium Layout (O=Available, X=Booked):
+Row  1: X O O O O 
+Row  2: O O X O O 
+Row  3: O O O O O 
+[Destructor] Deallocated 2D Seat Map (3 rows released)
+
+=== Scope 2: Heap Allocation ===
+[Constructor] Allocated 2D Seat Map: 2 x 4
+Auditorium Layout (O=Available, X=Booked):
+Row  1: O X O O 
+Row  2: O O O O 
+[Destructor] Deallocated 2D Seat Map (2 rows released)
