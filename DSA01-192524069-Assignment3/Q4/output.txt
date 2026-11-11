@@ -1,0 +1,5 @@
+Rs 200.00
+true
+Carry test (Rs 0.75 + Rs 0.50): Rs 1.25
+Subtraction test (Rs 120.75 - Rs 79.25): Rs 41.50
+Compound assignment test (bill += Rs 25.50): Rs 75.50
