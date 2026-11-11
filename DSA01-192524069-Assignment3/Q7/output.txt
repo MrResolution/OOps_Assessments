@@ -1,0 +1,19 @@
+============================================================
+          AC CIRCUIT IMPEDANCE CALCULATOR (RLC)             
+============================================================
+Component Impedances:
+Resistor (R):  100.00 + 0.00j | Magnitude: 100.00 ohms
+Inductor (L):  0.00 + 50.00j | Magnitude: 50.00 ohms
+Capacitor (C): 0.00 - 100.00j | Magnitude: 100.00 ohms
+
+Series RLC Total Impedance (Z_series = ZR + ZL + ZC):
+Z_series:  100.00 - 50.00j ohms
+|Z_series|: 111.80 ohms
+
+Parallel LC in Series with Resistor:
+Parallel (ZL || ZC): 0.00 + 100.00j ohms
+Total Network (ZR + (ZL || ZC)): 100.00 + 100.00j ohms
+|Z_total|: 141.42 ohms
+
+Testing Division by Zero Exception Safety:
+Caught Expected Exception: Division by zero in Complex division
