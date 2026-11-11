@@ -1,0 +1,4 @@
+predict_output.cpp: In function ‘int main()’:
+predict_output.cpp:19:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+   19 |     std::cout << (s < u ? "s < u" : "s >= u") << '\n';
+      |                   ~~^~~
