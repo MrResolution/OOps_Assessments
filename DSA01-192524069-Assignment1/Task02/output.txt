@@ -1,0 +1,4 @@
+Base Fare (Outer): Rs 30
+Peak Surcharge: 20%
+Peak Fare: Rs 36.0
+Minimum Required Balance: Rs 50
