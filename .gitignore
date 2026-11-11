@@ -11,3 +11,5 @@ object_oriented
 redesign
 test_suite
 benchmark
+boundary_test
+peak_expressions
