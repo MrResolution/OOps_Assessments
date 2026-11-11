@@ -1,0 +1,11 @@
+=== Track Timer Rollover Test ===
+Start:         00:59:58
+After postfix: 00:59:59
+After prefix:  01:00:00 (Rolled over to 1 hour)
+
+=== Playlist Subscript Bounds Verification ===
+Track [0]: Song A - Symphony
+Track [1]: Song B - Concerto
+Track [2]: Song C - Sonata
+Caught Expected Exception: Playlist index out of bounds: -1
+Caught Expected Exception: Playlist index out of bounds: 3
