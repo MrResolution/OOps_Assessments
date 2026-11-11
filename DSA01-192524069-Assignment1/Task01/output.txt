@@ -1,0 +1,5 @@
+Card: 1001
+Initial Balance: Rs 100
+Journey Zone: Outer, Hour: 9 (Peak: Yes)
+Calculated Fare: Rs 36.0
+Status: Success | Remaining Balance: Rs 64
