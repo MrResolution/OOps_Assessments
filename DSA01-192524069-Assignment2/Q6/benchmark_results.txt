@@ -1,0 +1,5 @@
+=== Benchmarking Q6 (10,000,000 iterations) ===
+-O0 without inline: 10,000,000 calls completed in: 31.0212 ms (Checksum: 5560000000)
+-O0 with inline:    10,000,000 calls completed in: 31.129 ms (Checksum: 5560000000)
+-O2 without inline: 10,000,000 calls completed in: 7.5e-05 ms (Checksum: 5560000000)
+-O2 with inline:    10,000,000 calls completed in: 0.000115 ms (Checksum: 5560000000)

@@ -14,3 +14,4 @@ benchmark
 boundary_test
 peak_expressions
 dangling_demo
+bench_*
