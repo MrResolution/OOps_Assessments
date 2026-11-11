@@ -1,0 +1,13 @@
+*.o
+*.out
+*.exe
+main
+predict_output
+safe_conversions
+expressions
+complete_code
+procedural
+object_oriented
+redesign
+test_suite
+benchmark
