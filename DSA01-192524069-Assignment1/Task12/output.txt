@@ -1,0 +1,23 @@
+====================================================================
+     NAMMA METRO DAY-4 DESIGN CHALLENGE: ADAPTED FARE SYSTEM        
+====================================================================
+
+Scenario: Airport Trip (Weekday Peak 9am): Base Rs 60 + 20% Peak = Rs 72
+Status: APPROVED
+Fare Deducted: Rs 72.00
+Remaining Wallet Balance: Rs 78.00
+
+Scenario: Airport Trip (Weekend 2pm): Base Rs 60 - 10% Discount = Rs 54
+Status: DENIED
+Fare Deducted: Rs 0.00
+Remaining Wallet Balance: Rs 78.00
+
+Scenario: Pass Trip in Inner Zone (Covered by Pass): Unlimited free
+Status: APPROVED
+Fare Deducted: Rs 0.00
+Remaining Wallet Balance: Rs 150.00
+
+Scenario: Pass Trip to Airport (Not Covered by Pass, deducted from backup wallet)
+Status: APPROVED
+Fare Deducted: Rs 72.00
+Remaining Wallet Balance: Rs 78.00
