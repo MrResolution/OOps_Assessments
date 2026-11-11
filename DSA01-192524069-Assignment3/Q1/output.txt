@@ -1,0 +1,10 @@
+Library Records:
+Title: Untitled | Author: Unknown | Copies: 0
+Title: Clean Code | Author: Unknown | Copies: 1
+Title: The C++ Programming Language | Author: Bjarne Stroustrup | Copies: 5
+Title: Invalid Book | Author: Test Author | Copies: 0
+
+Catalog Array Initialized:
+Title: Untitled | Author: Unknown | Copies: 0
+Title: Design Patterns | Author: Unknown | Copies: 1
+Title: Refactoring | Author: Martin Fowler | Copies: 2

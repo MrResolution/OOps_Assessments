@@ -1,0 +1,17 @@
+reorder_warning.cpp: In constructor ‘ReorderDemo::ReorderDemo(int)’:
+reorder_warning.cpp:5:9: warning: ‘ReorderDemo::b’ will be initialized after [-Wreorder]
+    5 |     int b;
+      |         ^
+reorder_warning.cpp:4:9: warning:   ‘int ReorderDemo::a’ [-Wreorder]
+    4 |     int a;
+      |         ^
+reorder_warning.cpp:7:5: warning:   when initialized here [-Wreorder]
+    7 |     ReorderDemo(int val) : b(val), a(b + 5) {}
+      |     ^~~~~~~~~~~
+reorder_warning.cpp:7:38: warning: member ‘ReorderDemo::b’ is used uninitialized [-Wuninitialized]
+    7 |     ReorderDemo(int val) : b(val), a(b + 5) {}
+      |                                      ^
+reorder_warning.cpp: In constructor ‘ReorderDemo::ReorderDemo(int)’:
+reorder_warning.cpp:7:38: warning: ‘*this.ReorderDemo::b’ is used uninitialized [-Wuninitialized]
+    7 |     ReorderDemo(int val) : b(val), a(b + 5) {}
+      |                                      ^

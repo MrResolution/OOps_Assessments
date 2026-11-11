@@ -15,3 +15,5 @@ boundary_test
 peak_expressions
 dangling_demo
 bench_*
+explicit_demo
+reorder_warning
