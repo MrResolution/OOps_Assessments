@@ -1,0 +1,8 @@
+Polymorphic Account Processing:
+Interest Rate: 3.5%
+Interest Rate: 4%
+
+Releasing Accounts Safely via Virtual Destructors:
+~Account (Virtual Base Destructor)
+~SeniorAccount (Virtual Derived Destructor: Releasing history)
+~Account (Virtual Base Destructor)

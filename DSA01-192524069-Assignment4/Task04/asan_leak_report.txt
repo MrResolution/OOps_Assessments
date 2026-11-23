@@ -1,0 +1,22 @@
+=================================================================
+==8519==ERROR: AddressSanitizer: new-delete-type-mismatch on 0x502000000030 in thread T0:
+  object passed to delete has wrong type:
+  size of the allocated type:   8 bytes;
+  size of the deallocated type: 1 bytes.
+    #0 0x70482e2ff5e8 in operator delete(void*, unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:164
+    #1 0x6395cbcec55b in main (/home/sabo/Documents/OOps_Assessments/DSA01-192524069-Assignment4/Task04/leaky_program+0x155b) (BuildId: d069c7d12ae5f646fe1260ea847a0136e8652e85)
+    #2 0x70482da2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #3 0x70482da2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #4 0x6395cbcec244 in _start (/home/sabo/Documents/OOps_Assessments/DSA01-192524069-Assignment4/Task04/leaky_program+0x1244) (BuildId: d069c7d12ae5f646fe1260ea847a0136e8652e85)
+
+0x502000000030 is located 0 bytes inside of 8-byte region [0x502000000030,0x502000000038)
+allocated by thread T0 here:
+    #0 0x70482e2fe548 in operator new(unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:95
+    #1 0x6395cbcec3de in main (/home/sabo/Documents/OOps_Assessments/DSA01-192524069-Assignment4/Task04/leaky_program+0x13de) (BuildId: d069c7d12ae5f646fe1260ea847a0136e8652e85)
+    #2 0x70482da2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #3 0x70482da2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #4 0x6395cbcec244 in _start (/home/sabo/Documents/OOps_Assessments/DSA01-192524069-Assignment4/Task04/leaky_program+0x1244) (BuildId: d069c7d12ae5f646fe1260ea847a0136e8652e85)
+
+SUMMARY: AddressSanitizer: new-delete-type-mismatch ../../../../src/libsanitizer/asan/asan_new_delete.cpp:164 in operator delete(void*, unsigned long)
+==8519==HINT: if you don't care about these errors you may set ASAN_OPTIONS=new_delete_type_mismatch=0
+==8519==ABORTING
