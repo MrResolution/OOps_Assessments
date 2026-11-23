@@ -1,0 +1,24 @@
+========================================================================
+               AUTONOMOUS FLEET MANAGEMENT SYSTEM                       
+========================================================================
+
+--- 1. Initial Fleet Listing ---
+[Bicycle                         ] Reg: BIKE-01         | Rate: Rs 150.00   | Status: AVAILABLE
+[Two-Wheeler (Motorcycle)        ] Reg: TN-02-AB-1234   | Rate: Rs 600.00   | Status: AVAILABLE
+[Petrol/Diesel Car               ] Reg: KA-01-CD-5678   | Rate: Rs 2500.00  | Status: AVAILABLE
+[Electric Car (EV)               ] Reg: DL-03-EV-9999   | Rate: Rs 3200.00  | Status: AVAILABLE
+[Electric Transit Bus (Extension)] Reg: TN-BUS-001      | Rate: Rs 8000.00  | Status: AVAILABLE
+
+--- 2. Renting Vehicles ---
+Rented: BIKE-01, KA-01-CD-5678, and TN-BUS-001
+
+--- 3. Returns and Billing Calculations ---
+Returned BIKE-01 (Bicycle)
+  Rental Period: 3 days | Late: 1 days
+  Final Settlement Bill: Rs 675.00
+Returned KA-01-CD-5678 (Petrol/Diesel Car)
+  Rental Period: 5 days | Late: 2 days
+  Final Settlement Bill: Rs 23500.00
+Returned TN-BUS-001 (Electric Transit Bus (Extension))
+  Rental Period: 4 days | Late: 0 days
+  Final Settlement Bill: Rs 33500.00
