@@ -17,6 +17,7 @@ dangling_demo
 bench_*
 explicit_demo
 reorder_warning
+reorder_swap
 shallow_copy_crash
 auditorium
 playlist_timer

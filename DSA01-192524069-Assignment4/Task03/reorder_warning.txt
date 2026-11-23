@@ -1,0 +1,10 @@
+reorder_swap.cpp: In constructor ‘StudentReorder::StudentReorder(long long int, const std::string&, int)’:
+reorder_swap.cpp:15:13: warning: ‘StudentReorder::home’ will be initialized after [-Wreorder]
+   15 |     Address home;
+      |             ^~~~
+reorder_swap.cpp:14:15: warning:   ‘long long int StudentReorder::regNo’ [-Wreorder]
+   14 |     long long regNo;
+      |               ^~~~~
+reorder_swap.cpp:18:5: warning:   when initialized here [-Wreorder]
+   18 |     StudentReorder(long long r, const std::string& c, int p)
+      |     ^~~~~~~~~~~~~~
