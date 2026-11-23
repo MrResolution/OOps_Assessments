@@ -1,0 +1,28 @@
+========================================================================================
+                   HOSPITAL BILLING & CLAIMS SETTLEMENT MATRIX                          
+========================================================================================
+
+Bill: [OutPatient] Patient: Arjun | Total Billed: Rs 2000.00
+----------------------------------------------------------------------------------------
+  Payer: Self-Pay               | Covered: Rs 0.00       | Patient Due: Rs 2000.00
+  Payer: Private Insurance      | Covered: Rs 1800.00    | Patient Due: Rs 200.00
+  Payer: Government Scheme      | Covered: Rs 2000.00    | Patient Due: Rs 0.00
+
+Bill: [InPatient] Patient: Bhavna | Total Billed: Rs 37000.00
+----------------------------------------------------------------------------------------
+  Payer: Self-Pay               | Covered: Rs 0.00       | Patient Due: Rs 37000.00
+  Payer: Private Insurance      | Covered: Rs 27000.00   | Patient Due: Rs 10000.00
+  Payer: Government Scheme      | Covered: Rs 20000.00   | Patient Due: Rs 17000.00
+
+Bill: [DayCareSurgery] Patient: Chetan | Total Billed: Rs 18000.00
+----------------------------------------------------------------------------------------
+  Payer: Self-Pay               | Covered: Rs 0.00       | Patient Due: Rs 18000.00
+  Payer: Private Insurance      | Covered: Rs 16200.00   | Patient Due: Rs 1800.00
+  Payer: Government Scheme      | Covered: Rs 18000.00   | Patient Due: Rs 0.00
+
+Bill: [Emergency] Patient: Deepa | Total Billed: Rs 6000.00
+----------------------------------------------------------------------------------------
+  Payer: Self-Pay               | Covered: Rs 0.00       | Patient Due: Rs 6000.00
+  Payer: Private Insurance      | Covered: Rs 5400.00    | Patient Due: Rs 600.00
+  Payer: Government Scheme      | Covered: Rs 6000.00    | Patient Due: Rs 0.00
+========================================================================================
