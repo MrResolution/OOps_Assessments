@@ -1,0 +1,26 @@
+========================================================================
+       HOSPITAL ENTERPRISE POLYMORPHIC BILLING SYSTEM (15 SITES)        
+========================================================================
+
+Processing Bill [P-101] (OutPatient) for Asha | Billed: Rs 2100.00
+  -> Self-Pay                       Covered: Rs 0.00      | Due: Rs 2100.00
+  -> Standard Insurance             Covered: Rs 1890.00   | Due: Rs 210.00
+  -> Corporate Tie-Up (Extension)   Covered: Rs 1785.00   | Due: Rs 315.00
+
+Processing Bill [P-102] (InPatient) for Bikram | Billed: Rs 47500.00
+  -> Self-Pay                       Covered: Rs 0.00      | Due: Rs 47500.00
+  -> Standard Insurance             CLAIM REJECTED: Claim exceeds maximum allowable ceiling limit
+  -> Corporate Tie-Up (Extension)   Covered: Rs 40000.00  | Due: Rs 7500.00
+
+Processing Bill [P-103] (DayCare (Extension)) for Chaya | Billed: Rs 22000.00
+  -> Self-Pay                       Covered: Rs 0.00      | Due: Rs 22000.00
+  -> Standard Insurance             Covered: Rs 19800.00  | Due: Rs 2200.00
+  -> Corporate Tie-Up (Extension)   Covered: Rs 18700.00  | Due: Rs 3300.00
+
+------------------------------------------------------------------------
+Total Enterprise Billings Processed: Rs 71600.00
+
+=== Exception & Resource Leak Audit (AddressSanitizer Verified) ===
+Successfully caught and handled invalid bill construction: Negative fee component in OutPatientBill
+Successfully caught and audited exorbitant claim: Claim exceeds maximum allowable ceiling limit
+========================================================================
