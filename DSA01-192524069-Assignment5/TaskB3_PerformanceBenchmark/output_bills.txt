@@ -1,0 +1,18 @@
+=================================================================
+     BENCHMARK: VIRTUAL DISPATCH VS SWITCH (COMPILED -O2)        
+=================================================================
+
+--- Scale: 1000 Bills ---
+Virtual Dispatch: 0.003935 ms | Sum = Rs 2.325e+07
+Switch Dispatch:  0.001022 ms | Sum = Rs 2.325e+07
+Totals Equal?     YES (VERIFIED)
+
+--- Scale: 1000000 Bills ---
+Virtual Dispatch: 3.65918 ms | Sum = Rs 2.325e+10
+Switch Dispatch:  0.97476 ms | Sum = Rs 2.325e+10
+Totals Equal?     YES (VERIFIED)
+
+--- Scale: 10000000 Bills ---
+Virtual Dispatch: 23.3509 ms | Sum = Rs 2.325e+11
+Switch Dispatch:  5.65507 ms | Sum = Rs 2.325e+11
+Totals Equal?     YES (VERIFIED)
