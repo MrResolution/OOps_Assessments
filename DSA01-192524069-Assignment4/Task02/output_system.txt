@@ -1,0 +1,11 @@
+=== University People Management ===
+
+ID: 101 | Name: Sandip Singh | Phone: 9876543210
+  [Role: Teaching Assistant]
+  Enrolled in: M.Tech CSE (CGPA: 9.4)
+  Employed in: Computer Science (Stipend: Rs 25000)
+  Assigned Teaching: 10 hrs/week
+
+ID: 102 | Name: Pooja | Phone: 9123456780
+  [Student] Programme: Ph.D AI | CGPA: 9.8
+  [Scholar] Fellowship: Rs 37000/month
