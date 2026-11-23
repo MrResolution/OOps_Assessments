@@ -1,0 +1,9 @@
+====================================================
+           COLLEGE PAYROLL REFACTORED               
+====================================================
+ID: 101 | Name: Dr. Aris     | Monthly Pay: Rs 128600.00
+ID: 102 | Name: Bala         | Monthly Pay: Rs 49700.00
+ID: 103 | Name: Chitra       | Monthly Pay: Rs 48000.00
+----------------------------------------------------
+Total Monthly Payroll Expenditure: Rs 226300.00
+====================================================
