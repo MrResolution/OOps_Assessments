@@ -1,0 +1,9 @@
+=== Four Ways to Reach an Object ===
+
+1. Direct Name: Customer A Total = Rs 38.00
+2. Pointer (->): Customer A Total = Rs 66.50
+3. Reference: Customer A Total = Rs 114.00
+4. Heap Dynamic (new/delete): Customer B Total = Rs 189.00
+
+=== Finding Highest Value Cart via Array of Pointers ===
+Highest Cart: Customer C with Total Rs 1700.00
