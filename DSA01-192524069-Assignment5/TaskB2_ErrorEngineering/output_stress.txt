@@ -1,0 +1,20 @@
+=== Test 1: Invalid Text Parsing ===
+  [Allocated ParserBuffer]
+  [Cleaned ParserBuffer]
+Caught: stod
+
+=== Test 2: Negative Number Parsing ===
+  [Allocated ParserBuffer]
+  [Cleaned ParserBuffer]
+Caught: Negative fee rejected
+
+=== Test 3: Forcing std::bad_alloc ===
+  [Allocated BigAllocTracker]
+Attempting to allocate 10 Terabytes...
+  [Cleaned BigAllocTracker]
+Caught Memory Exhaustion: std::bad_alloc
+
+=== Test 4: Top-Level catch(...) Shielding Crash ===
+  [Allocated TopLevelGuard]
+  [Cleaned TopLevelGuard]
+Caught unknown arbitrary exception cleanly. Application intact.
